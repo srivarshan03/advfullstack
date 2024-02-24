@@ -1,0 +1,91 @@
+/* styles.css or your preferred stylesheet */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero-section {
+  background-color: #f0f0f0;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-section,
+.services-section,
+.portfolio-section,
+.contact-section {
+  background-color: #fff;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.about-section h2,
+.services-section h2,
+.portfolio-section h2,
+.contact-section h2 {
+  color: #333;
+}
+
+.services-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-section li {
+  margin-bottom: 10px;
+}
+
+.portfolio-section p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
